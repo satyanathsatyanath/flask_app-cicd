@@ -1,5 +1,6 @@
 # Use an official Python runtime as a parent image
-FROM python:3.10
+FROM public.ecr.aws/docker/library/python:3.10
+
 
 WORKDIR /app
 
